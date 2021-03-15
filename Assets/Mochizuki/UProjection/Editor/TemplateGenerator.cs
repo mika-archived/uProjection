@@ -61,7 +61,7 @@ namespace Mochizuki.UProjection
             EditorGUILayout.EndScrollView();
         }
 
-        [MenuItem("Assets/Create/Create from uProjection Template")]
+        [MenuItem("Assets/Create/Create from uProjection Template", false, 0)]
         public static void ShowWindow()
         {
             var window = CreateInstance<TemplateGenerator>();
