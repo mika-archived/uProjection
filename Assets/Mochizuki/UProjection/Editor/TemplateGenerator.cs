@@ -67,7 +67,12 @@ namespace Mochizuki.UProjection
             var window = CreateInstance<TemplateGenerator>();
             window.titleContent = new GUIContent("uProjection Template Generator");
             window._templates = Utils.LoadTemplates();
+
+#if UNITY_2019_3_OR_NEWER
+            window.ShowModal();
+#else
             window.ShowUtility();
+#endif
         }
     }
 }
