@@ -6,13 +6,13 @@ Unity in project Project Template Creator, Manager and Generator
 
 - Unity 2018.x
 - Unity 2019.x
+- Unity 2020.x
 
 ## Why?
 
 I often have several smaller projects co-located within a single Unity project.  
 This is to save time on re-importing dependent assets, but I had to create the same directory structure each time.  
 That didn't save much time in the end, so I created this editor extension. 
-
 
 ## Documentation (ja-JP)
 
